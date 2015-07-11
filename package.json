@@ -1,0 +1,36 @@
+{
+  "name": "dendrite",
+  "productName": "Dendrite",
+  "version": "0.0.0",
+  "description": "My transcendent app",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "aeschylus/dendrite",
+  "author": {
+    "name": "aeschylus",
+    "email": "scipioaffricanus@gmail.com",
+    "url": "hqsf.github.io/dendrite"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . $npm_package_productName --prune --asar --all --version=0.29.1"
+  },
+  "files": [
+    "index.js",
+    "index.html",
+    "index.css"
+  ],
+  "keywords": [
+    "electron-app"
+  ],
+  "dependencies": {
+    "electron-debug": "^0.1.1"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.0.0",
+    "electron-prebuilt": "^0.29.1"
+  }
+}
